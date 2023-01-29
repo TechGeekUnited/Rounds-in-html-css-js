@@ -1,0 +1,46 @@
+#player {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 50%; /* make the player round */
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+#npc {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  left: 500px;
+  top: 200px;
+}
+
+#platform {
+  width: 200px;
+  height: 50px;
+  background-color: gray;
+  position: absolute;
+  left: 300px;
+  top: 350px;
+}
+
+#bullet {
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+ #player-health {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#enemy-health {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
